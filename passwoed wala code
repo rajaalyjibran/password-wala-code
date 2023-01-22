@@ -1,3 +1,4 @@
+
 #include<iostream>
 using namespace std;
 int main() {
@@ -12,16 +13,17 @@ cin>>password;
 	
 	{
 		cout<<"password is correct\n";
-	}
-
-   else 
-   {
-   	cout<<"incorrect password"<<endl;
-   }
-   
-   cout<<"Enter your name please \n ";
-   cin>>name;
+		cout<<"Enter your name please \n ";
+        cin>>name;
    
    cout<<"welcome dear user :) ";
+   }
+	
+   else 
+   {
+ 	cout<<"incorrect password\n"<<endl;
+ 	cout<<"Try Again" ;
+   }
+   
    
 }
